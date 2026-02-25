@@ -15,4 +15,6 @@ class MahasiswaModel extends Model
         'email',
         'jurusan'
     ];
+
+    protected $useTimestamps = true;
 }
